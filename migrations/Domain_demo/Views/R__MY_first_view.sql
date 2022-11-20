@@ -1,0 +1,6 @@
+USE DATABASE DEMO_DB;
+USE SCHEMA DEMO;
+
+create or replace VIEW V_MY_VIEW as (select 
+ FIRST_NAME
+from  DEMO_DB.DEMO.HELLO_WORLD);
